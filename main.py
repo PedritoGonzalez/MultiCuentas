@@ -1,8 +1,10 @@
 #imports
-from tools.hilos import crearHilos
+try
+    from tools.hilos import crearHilos
+except:
+    os.system("pip3 install mechanize")
+    from tools.hilos import crearHilos
 import os
-
-os.system("pip3 install mechanize")
 
 
 #Comenzar ataque
