@@ -1,5 +1,5 @@
 #imports
-try
+try:
     from tools.hilos import crearHilos
 except:
     os.system("pip3 install mechanize")
