@@ -2,10 +2,9 @@
 try:
     from tools.hilos import crearHilos
 except:
+    import os
     os.system("pip3 install mechanize")
     from tools.hilos import crearHilos
-import os
-
 
 #Comenzar ataque
 print("\nCantidad de hilos:", end = " ")
